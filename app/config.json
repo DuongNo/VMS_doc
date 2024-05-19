@@ -1,0 +1,26 @@
+{
+    "config name":"faceSystem",
+    "version": 1,
+    "bind": {
+        "address": "127.0.0.1",
+        "port": 18555
+    },
+    "projectPath":"",
+    "security": {
+        "area_working":[0,0,1920,1080]
+    },
+    "default_security":{
+        "mode":"security",
+        "type_camera":"camera",
+        "camera_path":"/home/vdc/project/computervision/python/video/face_video.mp4"
+    },
+    "default_traffic":{
+        "mode":"traffic",
+        "type_camera":"camera",
+        "camera_path":"/home/vdc/project/computervision/python/video/output.mp4"
+    },
+    "debug": {
+        "saveVideo":true,
+        "showImg":false
+    }
+}
